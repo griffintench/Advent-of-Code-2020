@@ -52,6 +52,10 @@ public class Day19Main {
     }
     
     private static int part2(final Map<Integer, Rule> ruleMap, final List<String> messages) {
+        // yeah I'm not proud of this
+        // one alternative: go through messages, find the longest one, and use that to determine how many 42's and 31's you need
+        // I suspect this would take a long time to run but I haven't tried it
+        // on the bright side, I got this one right on the first try!
         final String rule8String = "8: 42 | 42 42 | 42 42 42 | 42 42 42 42 | 42 42 42 42 42 | 42 42 42 42 42 42";
         final String rule11String = "11: 42 31 | 42 42 31 31 | 42 42 42 31 31 31 | 42 42 42 42 31 31 31 31 | 42 42 42 42 42 31 31 31 31 31";
         
