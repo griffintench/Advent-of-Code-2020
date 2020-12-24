@@ -16,6 +16,7 @@ import day19.Day19Main;
 import day2.Day2Main;
 import day20.Day20Main;
 import day21.Day21Main;
+import day22.Day22Main;
 import day3.Day3Main;
 import day4.Day4Main;
 import day5.Day5Main;
@@ -27,7 +28,7 @@ import day9.Day9Main;
 public class Main {
 	public static void main(String[] args) {
 		try {
-            Day21Main.run();
+            Day22Main.run();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
